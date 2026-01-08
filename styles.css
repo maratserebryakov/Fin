@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+.formula {
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.variable {
+  cursor: pointer;
+  color: #1e90ff;
+  border-bottom: 1px dashed #1e90ff;
+}
+
+.editors {
+  margin-top: 20px;
+}
+
+.editor {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 8px 0;
+  display: none;
+}
+
+.editor label {
+  display: block;
+  margin: 8px 0 4px;
+  font-weight: bold;
+  color: #333;
+}
+
+.editor input,
+.editor select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}

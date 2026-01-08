@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Интерактивная формула цены проекта</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+</head>
+<body>
+  <h1>Калькулятор цены проекта</h1>
+
+  <div class="formula" id="formula">
+    <!-- Формула будет вставлена через JS + MathJax -->
+  </div>
+
+  <div class="editors">
+    <!-- Редакторы будут вставлены через JS -->
+  </div>
+
+  <div class="result">
+    Итоговая цена <span class="math-inline">P</span>:
+    <span id="result">0</span> руб.
+  </div>
+
+  <!-- Пояснения к переменным -->
+  <div class="definitions">
+    <p><strong>где:</strong></p>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li><strong>P</strong> — финальная цена для клиента (руб.);</li>
+      <li><strong>T<sub>i</sub></strong> — трудозатраты i‑го специалиста (часы);</li>
+      <li><strong>R<sub>i</sub></strong> — почасовая ставка i‑го специалиста (руб./ч);</li>
+      <li><strong>O</strong> — накладные расходы (руб.);</li>
+      <li><strong>N%</strong> — налоговая нагрузка в процентах;</li>
+      <li><strong>K<sub>маржа</sub></strong>, <strong>K<sub>сложность</sub></strong>, <strong>K<sub>срочность</sub></strong> — коэффициенты наценки.</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
